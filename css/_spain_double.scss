@@ -1,0 +1,10 @@
+.section-spain-double {
+  background: url(../img/spain.png) no-repeat;
+  background-size: cover;
+  padding: 20% 0 13%;
+
+  .container .spain-double__wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

@@ -1,0 +1,39 @@
+.section-spain {
+  background: url(../img/render.png) no-repeat;
+  background-size: cover;
+  padding: 20% 0 13%;
+}
+
+.block {
+  max-width: 648px;
+  padding: 40px 32px;
+  background: rgba(35, 35, 35, 0.9);
+}
+
+.block .btn {
+  padding: 20px 56px;
+}
+
+.block__subtitle {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  margin-bottom: 16px;
+}
+
+.block__title {
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.block__paragraf {
+  max-width: 584px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  margin-bottom: 24px;
+}

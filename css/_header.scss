@@ -1,0 +1,114 @@
+.header-bhromaon {
+  background: url(../img/HeaderBackground.png) no-repeat;
+  background-size: cover;
+  padding-top: 23%;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h1-title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+.header__subtitle {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.31em;
+  margin-bottom: 48px;
+}
+
+.form-list {
+  position: relative;
+  min-width: 647px;
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+
+.form__search {
+  width: 100%;
+  height: 60px;
+  padding-right: 92px;
+  border: 0;
+  outline: 0;
+  background: #fff;
+  padding: 20px 92px 20px 36px;
+}
+
+.form__btn {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  display: inline-block;
+  width: 139px;
+  height: 52px;
+  padding-left: 20px;
+  background: #5373fd url(../img/Rectangle__gradient.png) no-repeat;
+  background-position: left top;
+  transition: all 0.5s;
+  outline: 0;
+  border: 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Aleo", serif;
+
+  .fas {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    display: inline-block;
+    font-size: 16px;
+    z-index: 9;
+    color: #fff;
+  }
+}
+
+.form__btn:hover {
+  background-position: -250% top;
+}
+
+.form__search::-moz-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #999999;
+}
+.form__search:-moz-placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #999999;
+}
+.form__search::placeholder {
+  font-size: 14px;
+  line-height: 20px;
+  color: #999999;
+  letter-spacing: 0.2em;
+}
+
+.header__scrool {
+  position: relative;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+
+  .fas {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
