@@ -1,0 +1,140 @@
+.section-choose {
+  background: url(../img/WhyBackground.png) no-repeat;
+  background-size: cover;
+  padding: 8% 0 60px;
+}
+
+.section-choose__wrapper {
+  display: flex;
+  margin-bottom: 130px;
+}
+
+.section-choose__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 648px;
+  text-align: left;
+  margin-right: 10%;
+}
+
+.section-mr {
+  margin-right: 0;
+}
+
+.h2-title {
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.section-choose__paragraf {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+  margin-bottom: 32px;
+}
+
+.btn {
+  padding: 20px 32px;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  background: #5373fd url(../img/Rectangle__gradient.png) no-repeat;
+  background-position: left top;
+  border-radius: 0;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  color: #fff;
+  background-position: -250% top;
+}
+
+.section-choose__img {
+  display: flex;
+  flex-direction: column;
+  min-width: 424px;
+}
+
+.section-choose-img__wrapper {
+  max-width: 350px;
+  min-height: 220px;
+}
+
+.section-choose__picture {
+  margin-bottom: 16px;
+}
+
+.section-margin {
+  margin-left: 70px;
+}
+
+.section-item {
+  background: #333333;
+  text-align: center;
+}
+
+.section-item__list {
+  position: relative;
+}
+
+.section-item__inline {
+  background: url(../img/Line__line.png) no-repeat;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+// .icon-Line__line:before {
+//   content: "\e900";
+// }
+
+.section-item__wrapper {
+  height: 306px;
+}
+
+.section-item__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+.section-item__info {
+  list-style-type: none;
+}
+
+.section-item__icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 10px;
+  cursor: pointer;
+}
+
+.section-item__subtitle {
+  font-family: "Aleo", serif;
+  font-size: 36px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.fa-search {
+  color: #5373fd;
+}
+
+.fa-check-circle {
+  color: #ff6363;
+}
+
+.fa-thumbs-up {
+  color: #00a2ff;
+}
+
+.far,
+.fas {
+  font-size: 55px;
+}

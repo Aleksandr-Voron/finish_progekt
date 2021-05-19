@@ -1,0 +1,55 @@
+.section-what {
+  background: url(../img/BG.png) no-repeat;
+  background-size: cover;
+  padding: 14% 0 14%;
+}
+
+.section-what__title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.article-list {
+  display: flex;
+  background: #333333;
+  height: 310px;
+}
+
+.article-list__img {
+  max-width: 380px;
+  flex: 0 1 auto;
+}
+
+.article-list__picture {
+  height: 100%;
+  width: 100%;
+}
+
+.article-list__info {
+  padding: 40px 60px;
+  flex: 0 1 760px;
+}
+
+.article-list__subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.article-list__paragraf {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.1em;
+
+  .fa-quote-left {
+    position: relative;
+    top: -9px;
+    left: 0px;
+    color: #5373fd;
+    display: inline-block;
+    font-size: 15px;
+    padding-right: 3px;
+  }
+}
